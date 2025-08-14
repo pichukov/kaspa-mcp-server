@@ -1,0 +1,23 @@
+{
+  "networks": {
+    "mainnet": {
+      "rpcUrl": "ws://custom-mainnet.example.com:16110",
+      "encoding": 0
+    },
+    "testnet-10": {
+      "rpcUrl": "ws://public-testnet.kaspa.org:16210",
+      "encoding": 0
+    },
+    "devnet": {
+      "rpcUrl": "ws://127.0.0.1:16310",
+      "encoding": 0
+    },
+    "simnet": {
+      "rpcUrl": "ws://127.0.0.1:16410",
+      "encoding": 0
+    }
+  },
+  "defaultNetwork": "testnet-10",
+  "logLevel": "info",
+  "autoConnect": true
+}
